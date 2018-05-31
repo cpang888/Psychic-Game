@@ -9,7 +9,7 @@
     var guessesSoFar = [];
     var i = 0;
  
-    var chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz";
+    var chars = "ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz";
     // var chars = "abcde";
     var randomChar = '';
     var computerGuess = '';
