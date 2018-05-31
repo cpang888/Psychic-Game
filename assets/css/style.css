@@ -1,0 +1,13 @@
+
+h2 {
+     position: absolute;
+     top: 100px;
+     left: 5px;
+     width: 350px;
+     font-size: 30px;
+ }
+
+ body {
+     width: 100%;
+     height: 800px;
+ }
