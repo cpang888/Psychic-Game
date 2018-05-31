@@ -12,6 +12,10 @@
     var chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz";
     // var chars = "abcde";
     var randomChar = '';
+    var computerGuess = '';
+
+    // This is the Computer's guess.
+    computerGuess = randomString();
 
     // Randomly chooses a choice from the chars array.
     function randomString() {
@@ -25,16 +29,15 @@
         guessesLeft = 10;
         guessesSoFar.length = 0;
         i = 0;
-    }
+        // This is the Computer's guess.
+        computerGuess = randomString();
+       }
 
     // This function is run whenever the user presses a key.
     document.onkeyup = function(event) {
 
         // Determines which key was pressed.
         var userGuess = event.key;
-
-        // This is the Computer's guess.
-        var computerGuess = randomString();
 
         // building the guessesSoFar array
         guessesSoFar[i] = userGuess;
