@@ -37,7 +37,7 @@
         var computerGuess = randomString();
 
         // building the guessesSoFar array
-        guessesSoFar[i] = userGuess + ", ";
+        guessesSoFar[i] = userGuess;
         
         if(userGuess === computerGuess ) {
             wins++; 
